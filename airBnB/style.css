@@ -1,0 +1,290 @@
+body{
+   
+
+    margin: 0; 
+    padding: 0;
+    margin-top: -170px;
+    background-color: hsl(0, 0%, 96%);
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-self: center;
+}
+
+h1{
+    top: 280px; 
+    font-style: italic;
+    font-family: "Allura", cursive;
+    font-size: 4em;
+    position: relative; 
+    color: gold;
+}
+
+
+h2{
+    left: 80px;
+    
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin-top: 180px;
+    position: absolute;
+}
+
+
+#liman{
+    
+    height: 660px; 
+    position: static;
+    max-width: auto;
+    display: flex;
+    justify-self: center;
+}
+
+
+#p1{
+    width: 600px;
+    float: right;
+    padding-right: 50px;
+    font-size: 1.17em;
+    display: flex;
+}
+
+.second{
+    margin-top: 20px;
+    display: flex;
+    justify-self: center;
+    gap: 65px;
+    flex-direction: row-reverse;
+}
+
+#saloni2{
+    margin-left: 5%;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+h3{
+    text-align: center;
+    font-family: "Allura", cursive;
+    font-size: 3em;
+    position: relative; 
+    text-decoration:  underline;
+    
+}
+
+.bigabout{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 60px;
+}
+
+#about{
+    width: 600px;
+    
+    padding-right: 50px;
+    font-size: 1.17em;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+
+#map{
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 380px;
+    width: 500px;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    padding: 1px;
+    background-color: #93CAED;
+    color: white;
+    
+
+}
+
+#p2{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: center;
+}
+
+
+.grid-cont-swiper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 20px;
+    overflow: hidden;
+    
+}
+
+.card-list .card-item {
+    list-style: none;
+    
+}
+
+.card-list .card-item  {
+    user-select: none;
+    display: flex;
+    background: none;
+    padding: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    
+}
+
+
+.card-list .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        margin-top: 0; 
+        background-color: hsl(0, 0%, 96%);
+        height: auto;
+        padding: 10px; 
+        display: block;
+    }
+
+    
+    .container {
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+    }
+
+    
+    h1 {
+        font-size: 2em; 
+        text-align: center;
+        position: static; 
+        top: auto; 
+    }
+
+    h2 {
+        font-size: 1.1em; 
+        margin-top: 20px; 
+        left: 0; 
+        position: static;
+        margin-bottom: 20px; 
+    }
+
+    
+    #liman {
+        height: auto; 
+        max-width: 100%; 
+        padding: 10px; 
+    }
+
+    
+    #p1 {
+        width: 100%; 
+        float: none; 
+        padding: 10px; 
+        font-size: 1em; 
+    }
+
+    .second {
+        flex-direction: column; 
+        gap: 20px; 
+        justify-content: center;
+    }
+
+    
+    #saloni2 {
+        width: 90%; 
+        margin-left: 5%; 
+        height: auto; 
+    }
+
+   
+    h3 {
+        font-size: 2em;
+        text-align: center; 
+        margin-top: 20px; 
+    }
+
+    
+    .bigabout {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    #about {
+        width: 100%; 
+        padding: 0; 
+        font-size: 1em; 
+        flex-direction: column; 
+    }
+
+    #map {
+        margin-left: 0; 
+        width: 100%; 
+        height: 250px; 
+    }
+
+    
+    footer {
+        padding: 20px; 
+        font-size: 1em;
+    }
+
+    #p2 {
+        font-size: 1em; 
+        justify-content: center;
+    }
+
+   
+    .card-wrapper {
+        margin: 10px 0;
+        max-width: 100%; 
+    }
+
+    .card-list .card-item {
+        flex-direction: column; 
+        padding: 15px; 
+        margin: 10px 0; 
+    }
+
+    .card-list .card-image {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+
